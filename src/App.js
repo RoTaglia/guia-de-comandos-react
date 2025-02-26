@@ -15,7 +15,7 @@ export default function App() {
                     value={command}
                     onChange={(e) => setCommand(e.target.value)}
                     onKeyDown={(e) => e.key === "Enter" && processCommand()}
-                    placeholder="Digite um comando e aperte enter..."
+                    placeholder="Digite um comando e aperte enter... Ex: digite 'help'"
                     style={styles.input}
                 />
                 <div style={styles.buttonContainer}>
