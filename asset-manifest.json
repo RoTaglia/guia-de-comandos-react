@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/guia-de-comandos-react/static/css/main.325b1124.css",
-    "main.js": "/guia-de-comandos-react/static/js/main.f3d475f0.js",
+    "main.css": "/guia-de-comandos-react/static/css/main.bbd86620.css",
+    "main.js": "/guia-de-comandos-react/static/js/main.d1490e8e.js",
     "static/js/453.2a5044e5.chunk.js": "/guia-de-comandos-react/static/js/453.2a5044e5.chunk.js",
     "index.html": "/guia-de-comandos-react/index.html",
-    "main.325b1124.css.map": "/guia-de-comandos-react/static/css/main.325b1124.css.map",
-    "main.f3d475f0.js.map": "/guia-de-comandos-react/static/js/main.f3d475f0.js.map",
+    "main.bbd86620.css.map": "/guia-de-comandos-react/static/css/main.bbd86620.css.map",
+    "main.d1490e8e.js.map": "/guia-de-comandos-react/static/js/main.d1490e8e.js.map",
     "453.2a5044e5.chunk.js.map": "/guia-de-comandos-react/static/js/453.2a5044e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.325b1124.css",
-    "static/js/main.f3d475f0.js"
+    "static/css/main.bbd86620.css",
+    "static/js/main.d1490e8e.js"
   ]
 }
