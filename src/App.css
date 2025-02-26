@@ -4,64 +4,12 @@ body {
   margin: 50px;
   background-color: #f4f4f4;
 }
-.container {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 90%;
-  width: 450px;
-  min-height: 210px;
-  margin: auto;
-}
-input {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-button {
-  padding: 10px 15px;
-  border: none;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.search-btn {
-  background-color: #007bff;
-}
-.search-btn:hover {
-  background-color: #0056b3;
-}
-.clear-btn {
-  background-color: #ff6666;
-}
-.clear-btn:hover {
-  background-color: #cc0000;
-}
-.output {
-  margin-top: 20px;
-  font-weight: bold;
-}
-.output-cmd {
-  color: #008000;
-}
-.output-err {
-  color: #ff0000;
-}
-.button-container {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
 @media (max-width: 500px) {
   body {
       margin: 50px 20px;
   }
   .container {
-      width: 95%;
+      width: 90%;
       padding: 15px;
   }
 }
