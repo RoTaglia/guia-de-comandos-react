@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/guia-de-comandos-react/static/css/main.f855e6bc.css",
-    "main.js": "/guia-de-comandos-react/static/js/main.6764741e.js",
+    "main.css": "/guia-de-comandos-react/static/css/main.325b1124.css",
+    "main.js": "/guia-de-comandos-react/static/js/main.f3d475f0.js",
     "static/js/453.2a5044e5.chunk.js": "/guia-de-comandos-react/static/js/453.2a5044e5.chunk.js",
-    "static/media/logo.svg": "/guia-de-comandos-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/guia-de-comandos-react/index.html",
-    "main.f855e6bc.css.map": "/guia-de-comandos-react/static/css/main.f855e6bc.css.map",
-    "main.6764741e.js.map": "/guia-de-comandos-react/static/js/main.6764741e.js.map",
+    "main.325b1124.css.map": "/guia-de-comandos-react/static/css/main.325b1124.css.map",
+    "main.f3d475f0.js.map": "/guia-de-comandos-react/static/js/main.f3d475f0.js.map",
     "453.2a5044e5.chunk.js.map": "/guia-de-comandos-react/static/js/453.2a5044e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.6764741e.js"
+    "static/css/main.325b1124.css",
+    "static/js/main.f3d475f0.js"
   ]
 }
