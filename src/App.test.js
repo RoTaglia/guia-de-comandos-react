@@ -15,7 +15,7 @@ describe('<App />', () => {
     expect(screen.getByText("Limpar")).toBeInTheDocument();
   });
 
-  test("Should display the correct output when entering a valid command", () => {
+test("Should display the correct output when entering a valid command", async () => {
     render(<App />);
 
     const input = screen.getByPlaceholderText(/Digite um comando e aperte enter/i);
@@ -24,10 +24,10 @@ describe('<App />', () => {
     fireEvent.change(input, { target: { value: "ls" } });
     fireEvent.click(searchButton);
 
-    expect(screen.getByText(/ls: Lista o conteúdo de um diretório/i)).toBeInTheDocument();
-  });
+    expect(await screen.findByText(/ls: Lista o conteúdo de um diretório/i)).toBeInTheDocument();
+});
 
-  test("Should show an error message when entering an invalid command", () => {
+test("Should show an error message when entering an invalid command", async () => {
     render(<App />);
 
     const input = screen.getByPlaceholderText(/Digite um comando e aperte enter/i);
@@ -36,8 +36,9 @@ describe('<App />', () => {
     fireEvent.change(input, { target: { value: "comando_invalido" } });
     fireEvent.click(searchButton);
 
-    expect(screen.getByText(/Comando não encontrado/i)).toBeInTheDocument();
-  });
+    expect(await screen.findByText(/Comando não encontrado/i)).toBeInTheDocument();
+});
+
 
   test("Should clear the displayed content when clicking the 'Limpar' button", () => {
     render(<App />);

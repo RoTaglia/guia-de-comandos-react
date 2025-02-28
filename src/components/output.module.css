@@ -1,0 +1,10 @@
+.output {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.outputCmd {
+    color: #008000;
+}
+.outputErr {
+    color: #ff0000;
+}

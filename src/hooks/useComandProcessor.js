@@ -28,7 +28,7 @@ const useCommandProcessor = () => {
         } else {
             setOutput(commands[trimmedCommand]
                 ? formatOutput(`${trimmedCommand}: ${commands[trimmedCommand]}`)
-                : formatOutput("Comando não encontrado. Para ajuda, escreva 'help'", true));
+                : formatOutput("Comando não encontrado.\n Para ajuda, escreva 'help'", true));
         }
     };
 
