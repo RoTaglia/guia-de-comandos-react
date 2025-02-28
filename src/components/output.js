@@ -1,4 +1,4 @@
-import styles from "./output.module.css";
+import styles from "./Output.module.css";
 
 function Output({ text, isError }) {
     return (

@@ -1,6 +1,6 @@
-import Input from "./components/input";
-import Button from "./components/button";
-import Output from "./components/output";
+import Input from "./components/Input";
+import Button from "./components/Button";
+import Output from "./components/Output";
 import styles from "./styles/appStyles.module.css";
 import useCommandProcessor from "./hooks/useComandProcessor";
 
